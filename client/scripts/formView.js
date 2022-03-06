@@ -2,6 +2,8 @@
 // Consider the provided code and complete the functionality.
 // Apply what you learn here to other interactive views if necessary.
 
+// this is in charge of submitting the message of what is being inputted
+
 var FormView = {
 
   $form: $('form'),
@@ -16,7 +18,7 @@ var FormView = {
 
     // TODO: Currently, this is all handleSubmit does.
     // Make this function actually send a message to the Parse API.
-  
+
     console.log('click!');
   },
 

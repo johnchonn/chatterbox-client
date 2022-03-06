@@ -26,9 +26,9 @@ var Parse = {
 
   readAll: function(successCB, errorCB = null) {
     $.ajax({
-      url: Parse.server,
+      url: Parse.server, // line 7
       type: 'GET',
-      data: { order: '-createdAt' },
+      data: { order: '-createdAt' }, // data is getting fetched here
       contentType: 'application/json',
       success: successCB,
       error: errorCB || function(error) {
